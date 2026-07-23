@@ -1,0 +1,224 @@
+(kicad_symbol_lib (version 20211014) (generator easyeda2kicad)
+  (symbol "SW-TH_3P-P4_70_SS-12D06-G050" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SW-TH_3P-P4_70_SS-12D06-G050" (id 1) (at 0 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SW-TH_3P-P4_70_SS-12D06-G050_0_1"
+      (polyline
+        (pts
+          (xy 71.1200 -62.2300)
+          (xy 71.1200 -58.4200)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 71.1200 -58.4200)
+          (xy 73.6600 -58.4200)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 73.6600 -58.4200)
+          (xy 73.6600 -62.2300)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 81.2800 -68.0720)
+          (xy 81.0260 -67.0560)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 71.1200 -68.0720)
+          (xy 70.8660 -67.0560)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 71.1200 -68.0720)
+          (xy 71.3740 -67.0560)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 76.2000 -68.0720)
+          (xy 75.9460 -67.0560)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 76.2000 -68.0720)
+          (xy 76.4540 -67.0560)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 71.1200 -68.0720)
+          (xy 71.1200 -66.0400)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 71.1200 -66.0400)
+          (xy 76.2000 -66.0400)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 76.2000 -66.0400)
+          (xy 76.2000 -68.0720)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 81.2800 -68.0720)
+          (xy 81.5340 -67.0560)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 76.2000 -66.0400)
+          (xy 76.2000 -65.5320)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 76.2000 -65.0240)
+          (xy 76.2000 -64.5160)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 76.2000 -64.5160)
+          (xy 76.7080 -64.5160)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 77.2160 -64.5160)
+          (xy 77.7240 -64.5160)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 78.2320 -64.5160)
+          (xy 78.7400 -64.5160)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 79.2480 -64.5160)
+          (xy 79.7560 -64.5160)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 80.2640 -64.5160)
+          (xy 81.2800 -64.5160)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 81.2800 -64.5160)
+          (xy 81.2800 -65.5320)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 81.2800 -67.5640)
+          (xy 81.2800 -67.0560)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 81.2800 -66.5480)
+          (xy 81.2800 -66.0400)
+        )
+        (stroke (width 0.2540) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (rectangle (start 68.5800 -62.2300) (end 83.8200 -69.8500)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 81.2800 -68.5800) (radius 0.5080)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 76.2000 -68.5800) (radius 0.5080)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 71.1200 -68.5800) (radius 0.5080)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "SW-TH_3P-P4_70_SS-12D06-G050_1_1"
+      (pin passive line (at 81.2800 -73.6600 0) (length 2.5400)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 76.2000 -73.6600 0) (length 2.5400)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 71.1200 -73.6600 0) (length 2.5400)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)

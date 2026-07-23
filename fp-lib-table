@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Switch_Keyboard_Cherry_MX") (type "KiCad") (uri "${KIPRJMOD}/footprints/Switch_Keyboard_Cherry_MX.pretty") (options "") (descr ""))
+	(lib (name "HOLYIOT-18010-NRF52840") (type "KiCad") (uri "${KIPRJMOD}/footprints/HOLYIOT-18010-NRF52840.pretty") (options "") (descr ""))
+	(lib (name "DM-OLED096-636") (type "KiCad") (uri "${KIPRJMOD}/footprints/DM-OLED096-636.pretty") (options "") (descr ""))
+	(lib (name "SW-TH_3P-P4_70_SS-12D06-G050_SS-12D06-G050_C17179521") (type "KiCad") (uri "${KIPRJMOD}/footprints/SW-TH_3P-P4_70_SS-12D06-G050_SS-12D06-G050_C17179521.pretty") (options "") (descr ""))
+)
