@@ -7882,12 +7882,6 @@
 		(uuid "83cae5f7-1a49-4105-83ff-7d9eba373fa3")
 	)
 	(junction
-		(at 467.36 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "882c506b-1377-420d-90f6-d497c99291ff")
-	)
-	(junction
 		(at 449.58 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7940,6 +7934,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caf2f0bc-cc56-4ddc-8232-bb2ce8afc9f7")
+	)
+	(junction
+		(at 467.36 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cef7b95f-0d41-4568-9ddf-1b8bdc5b253a")
 	)
 	(junction
 		(at 383.54 105.41)
@@ -8281,6 +8281,16 @@
 	)
 	(wire
 		(pts
+			(xy 471.17 85.09) (xy 476.25 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47cdf3a7-6a63-4506-acae-d08e73f96e1c")
+	)
+	(wire
+		(pts
 			(xy 367.03 105.41) (xy 372.11 105.41)
 		)
 		(stroke
@@ -8451,6 +8461,16 @@
 	)
 	(wire
 		(pts
+			(xy 468.63 72.39) (xy 467.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a10c09a-5d60-4ce3-9b57-00bf3ae9fb36")
+	)
+	(wire
+		(pts
 			(xy 266.7 226.06) (xy 248.92 226.06)
 		)
 		(stroke
@@ -8521,6 +8541,16 @@
 	)
 	(wire
 		(pts
+			(xy 468.63 87.63) (xy 468.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d731210-8692-4ca5-b873-ac0425d578aa")
+	)
+	(wire
+		(pts
 			(xy 405.13 236.22) (xy 392.43 236.22)
 		)
 		(stroke
@@ -8558,6 +8588,16 @@
 			(type default)
 		)
 		(uuid "83b53ab9-6c42-44e6-b65c-d12898565670")
+	)
+	(wire
+		(pts
+			(xy 467.36 72.39) (xy 467.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "852d9248-c0c1-471e-9874-2cd5df8f9b5f")
 	)
 	(wire
 		(pts
@@ -8731,16 +8771,6 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 85.09) (xy 473.71 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a43888e4-176b-40e9-9e38-1b9229669219")
-	)
-	(wire
-		(pts
 			(xy 383.54 215.9) (xy 383.54 218.44)
 		)
 		(stroke
@@ -8861,16 +8891,6 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 87.63) (xy 473.71 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b759d87b-24fb-4736-bfdf-2b936090ca84")
-	)
-	(wire
-		(pts
 			(xy 248.92 213.36) (xy 248.92 217.17)
 		)
 		(stroke
@@ -8888,6 +8908,16 @@
 			(type default)
 		)
 		(uuid "be5458d5-6546-418b-8d5e-c4ccf38436ff")
+	)
+	(wire
+		(pts
+			(xy 468.63 87.63) (xy 476.25 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6ccc9c-2eb6-4f44-a4c0-0a48e1048263")
 	)
 	(wire
 		(pts
@@ -9048,6 +9078,16 @@
 			(type default)
 		)
 		(uuid "dfd0f951-b67d-4181-966a-53ce1336a9c9")
+	)
+	(wire
+		(pts
+			(xy 471.17 67.31) (xy 471.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03a5a0d-3aa7-4004-a411-fce8592b5c24")
 	)
 	(wire
 		(pts
@@ -9228,26 +9268,6 @@
 			(type default)
 		)
 		(uuid "fa12e638-a29a-4a36-b9b6-5d91ac006c96")
-	)
-	(wire
-		(pts
-			(xy 467.36 72.39) (xy 471.17 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb603992-17fd-4b9e-ae40-8e3313f2afd0")
-	)
-	(wire
-		(pts
-			(xy 467.36 72.39) (xy 467.36 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe51bf29-c675-4e91-ae6e-7ba0b00034c1")
 	)
 	(global_label "RGB_DATA 3v"
 		(shape input)
@@ -9537,30 +9557,6 @@
 			)
 		)
 	)
-	(global_label "d-"
-		(shape input)
-		(at 471.17 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "286e1802-03a1-40d2-a287-bc84bd4079ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 476.8766 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 492.76 53.34 0)
@@ -9574,30 +9570,6 @@
 		(uuid "31cb964a-a661-4875-847b-46a79b47b2a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 500.6438 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "d+"
-		(shape input)
-		(at 471.17 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "397aedfa-a4ee-40cd-9f9e-d7340cbd25d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 476.8766 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10593,30 +10565,6 @@
 			)
 		)
 	)
-	(global_label "d-"
-		(shape input)
-		(at 473.71 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ef574e50-e329-4674-b19e-dfc438e00279")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 468.0034 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "VSYS"
 		(shape input)
 		(at 336.55 204.47 180)
@@ -10662,30 +10610,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "d+"
-		(shape input)
-		(at 473.71 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fd3588ae-bf44-41c0-8bf1-55678e2fbd19")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 468.0034 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -10890,7 +10814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "020a235f-8861-4efc-8ff5-8938eef8cf07")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 293.37 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10950,7 +10874,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR08")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10968,7 +10892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03209188-7435-47aa-b57a-e2f94ebfb7dc")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR019"
 			(at 485.14 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -11028,7 +10952,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11046,7 +10970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05fbfeb8-fcf8-4d67-b946-828a5703d51f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR027"
 			(at 453.39 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -11106,7 +11030,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR023")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11124,7 +11048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "076b81ce-a428-412d-9b63-c4c07b2faf02")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR018"
 			(at 308.61 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -11184,7 +11108,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR014")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11202,7 +11126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d5a773e-d143-4e80-bfad-d6a17606b2ef")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR025"
 			(at 248.92 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -11262,7 +11186,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR021")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11361,7 +11285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22c5ba28-f44e-483d-a188-af0bc966a75c")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR016"
 			(at 279.4 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11421,7 +11345,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR012")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12417,7 +12341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b407f8-3fad-4060-8a03-35759fae0c35")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR06"
 			(at 482.6 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12477,7 +12401,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR02")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12577,7 +12501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38a17187-ac26-4914-a29a-9709fa7debdd")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 328.93 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12637,7 +12561,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13294,7 +13218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "581554b9-fbd5-460a-9c20-9970be3c1270")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 400.05 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -13354,7 +13278,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14277,7 +14201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "724d1800-159f-4930-a74c-28eb970d7bd9")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 392.43 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14337,7 +14261,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -14355,7 +14279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73805bf6-f941-4c12-8d46-47802db55357")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR024"
 			(at 392.43 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -14415,7 +14339,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR020")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -14720,7 +14644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87f799b8-1142-4d72-b57d-58c826243c00")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR023"
 			(at 361.95 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -14780,7 +14704,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR019")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -14797,7 +14721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89eb2de8-1c27-4911-a6f0-a9d85a884945")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 486.41 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -14857,7 +14781,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -14875,7 +14799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e456fbb-4244-4527-928a-19455b0d6399")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR017"
 			(at 375.92 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -14935,7 +14859,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR013")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -15260,7 +15184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "952358f8-a7a5-4342-a8b1-32f8208bedc8")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR022"
 			(at 339.09 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -15320,7 +15244,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR018")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -15338,7 +15262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95af120e-e732-482b-8a2e-b359c671ebe0")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 495.3 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -15398,7 +15322,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15758,7 +15682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 447.04 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -15849,7 +15773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 463.55 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -16233,7 +16157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 490.22 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16372,7 +16296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c220e9b1-aee3-4ac3-9c31-51f73e19ceb7")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 483.87 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -16432,7 +16356,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -16532,7 +16456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3df93d1-639d-4df3-a3a8-68dc040be6dd")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR013"
 			(at 427.99 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -16592,7 +16516,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR09")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -16689,7 +16613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdcdf737-a74f-4c5a-a26a-475ce80d7e3d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR014"
 			(at 490.22 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -16749,7 +16673,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -16767,7 +16691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf2f8a2c-01c6-45b5-ae3d-9576a33c80d5")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 444.5 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -16827,7 +16751,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -16865,7 +16789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD:L_APV_ANR5020"
 			(at 361.95 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -16925,7 +16849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9c2287c-a55d-4d38-b129-83122f18c523")
-		(property "Reference" "D16"
+		(property "Reference" "D13"
 			(at 378.7775 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16987,7 +16911,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "D16")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -17087,7 +17011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2beccfc-0899-43e7-833e-15d1a60645b3")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR020"
 			(at 468.63 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -17147,7 +17071,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR016")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -17165,7 +17089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7b87553-0abd-4c81-93c8-2e7262c557fa")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR026"
 			(at 273.05 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -17225,7 +17149,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR022")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -17439,7 +17363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 486.41 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -17519,7 +17443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 488.95 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -17579,7 +17503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f45f075d-c242-436b-b9a5-6607ba8b2451")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR021"
 			(at 166.37 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -17639,7 +17563,7 @@
 		(instances
 			(project "keyboard"
 				(path "/16731cae-161a-4e0b-b0bc-8357e7f65d16"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -17678,7 +17602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 438.15 144.78 0)
 			(hide yes)
 			(show_name no)

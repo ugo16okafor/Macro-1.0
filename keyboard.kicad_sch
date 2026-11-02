@@ -2813,7 +2813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f5eb011-645f-418d-9c1f-8af0efbe3831")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR03"
 			(at 93.98 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2873,7 +2873,7 @@
 		(instances
 			(project "keyboard"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "#PWR034")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2891,7 +2891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27195766-a6ab-4a70-961b-3280a26eb099")
-		(property "Reference" "H3"
+		(property "Reference" "M3"
 			(at 45.72 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2949,7 +2949,7 @@
 		(instances
 			(project "keyboard"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "H3")
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -3561,7 +3561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b8fb60a-833d-48c9-8ab4-4d95a1d0c2ac")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR02"
 			(at 201.93 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3621,7 +3621,7 @@
 		(instances
 			(project "keyboard"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "#PWR024")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4027,7 +4027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79fa17b8-d1ce-460b-bf42-d93030f63495")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR01"
 			(at 88.9 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4087,7 +4087,7 @@
 		(instances
 			(project "keyboard"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "#PWR033")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4105,7 +4105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81211ca0-6f10-4fbf-8b2a-67a863db71c9")
-		(property "Reference" "H4"
+		(property "Reference" "M4"
 			(at 69.85 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4163,7 +4163,7 @@
 		(instances
 			(project "keyboard"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "H4")
+					(reference "M4")
 					(unit 1)
 				)
 			)
@@ -4339,7 +4339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a9050e9-36e1-4ce2-9310-552e57560c52")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR04"
 			(at 92.71 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4399,7 +4399,7 @@
 		(instances
 			(project "keyboard"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "#PWR035")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4932,7 +4932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6721509-b683-4dff-8567-4786d7a81720")
-		(property "Reference" "H2"
+		(property "Reference" "M2"
 			(at 69.85 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4990,7 +4990,7 @@
 		(instances
 			(project "keyboard"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "H2")
+					(reference "M2")
 					(unit 1)
 				)
 			)
@@ -5008,7 +5008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6b0cf10-7949-48c9-bbeb-284bcfbda460")
-		(property "Reference" "H1"
+		(property "Reference" "M1"
 			(at 45.72 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5066,7 +5066,7 @@
 		(instances
 			(project "keyboard"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "H1")
+					(reference "M1")
 					(unit 1)
 				)
 			)
